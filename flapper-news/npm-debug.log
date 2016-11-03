@@ -1,0 +1,754 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'uninstall',
+1 verbose cli   'npm',
+1 verbose cli   '-g' ]
+2 info using npm@4.0.1
+3 info using node@v6.0.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly uninstall loadAllDepsIntoIdealtree
+19 silly loadAllDepsIntoIdealTree Finishing
+20 silly loadIdealTree Finishing
+21 silly currentTree lib
+21 silly currentTree └─┬ npm@4.0.1
+21 silly currentTree   ├── abbrev@1.0.9
+21 silly currentTree   ├── ansi-regex@2.0.0
+21 silly currentTree   ├── ansicolors@0.3.2
+21 silly currentTree   ├── ansistyles@0.1.3
+21 silly currentTree   ├── aproba@1.0.4
+21 silly currentTree   ├── archy@1.0.0
+21 silly currentTree   ├── asap@2.0.5
+21 silly currentTree   ├── chownr@1.0.1
+21 silly currentTree   ├── cmd-shim@2.0.2
+21 silly currentTree   ├─┬ columnify@1.5.4
+21 silly currentTree   │ └─┬ wcwidth@1.0.0
+21 silly currentTree   │   └─┬ defaults@1.0.3
+21 silly currentTree   │     └── clone@1.0.2
+21 silly currentTree   ├─┬ config-chain@1.1.11
+21 silly currentTree   │ └── proto-list@1.2.4
+21 silly currentTree   ├── debuglog@1.0.1
+21 silly currentTree   ├── dezalgo@1.0.3
+21 silly currentTree   ├── editor@1.0.0
+21 silly currentTree   ├── fs-vacuum@1.2.9
+21 silly currentTree   ├── fs-write-stream-atomic@1.0.8
+21 silly currentTree   ├─┬ fstream-npm@1.2.0
+21 silly currentTree   │ └─┬ fstream-ignore@1.0.5
+21 silly currentTree   │   └─┬ minimatch@3.0.3
+21 silly currentTree   │     └─┬ brace-expansion@1.1.6
+21 silly currentTree   │       ├── balanced-match@0.4.2
+21 silly currentTree   │       └── concat-map@0.0.1
+21 silly currentTree   ├── fstream@1.0.10
+21 silly currentTree   ├─┬ glob@7.1.0
+21 silly currentTree   │ ├── fs.realpath@1.0.0
+21 silly currentTree   │ ├─┬ minimatch@3.0.3
+21 silly currentTree   │ │ └─┬ brace-expansion@1.1.6
+21 silly currentTree   │ │   ├── balanced-match@0.4.2
+21 silly currentTree   │ │   └── concat-map@0.0.1
+21 silly currentTree   │ └── path-is-absolute@1.0.1
+21 silly currentTree   ├── graceful-fs@4.1.9
+21 silly currentTree   ├── has-unicode@2.0.1
+21 silly currentTree   ├── hosted-git-info@2.1.5
+21 silly currentTree   ├── iferr@0.1.5
+21 silly currentTree   ├── imurmurhash@0.1.4
+21 silly currentTree   ├── inflight@1.0.5
+21 silly currentTree   ├── inherits@2.0.3
+21 silly currentTree   ├── ini@1.3.4
+21 silly currentTree   ├─┬ init-package-json@1.9.4
+21 silly currentTree   │ ├─┬ glob@6.0.4
+21 silly currentTree   │ │ ├─┬ minimatch@3.0.3
+21 silly currentTree   │ │ │ └─┬ brace-expansion@1.1.6
+21 silly currentTree   │ │ │   ├── balanced-match@0.4.2
+21 silly currentTree   │ │ │   └── concat-map@0.0.1
+21 silly currentTree   │ │ └── path-is-absolute@1.0.0
+21 silly currentTree   │ └── promzard@0.3.0
+21 silly currentTree   ├─┬ JSONStream@1.2.1
+21 silly currentTree   │ ├── jsonparse@1.2.0
+21 silly currentTree   │ └── through@2.3.8
+21 silly currentTree   ├── lockfile@1.0.2
+21 silly currentTree   ├── lodash._baseindexof@3.1.0
+21 silly currentTree   ├─┬ lodash._baseuniq@4.6.0
+21 silly currentTree   │ ├── lodash._createset@4.0.3
+21 silly currentTree   │ └── lodash._root@3.0.1
+21 silly currentTree   ├── lodash._bindcallback@3.0.1
+21 silly currentTree   ├── lodash._cacheindexof@3.0.2
+21 silly currentTree   ├── lodash._createcache@3.1.2
+21 silly currentTree   ├── lodash._getnative@3.9.1
+21 silly currentTree   ├── lodash.clonedeep@4.5.0
+21 silly currentTree   ├── lodash.restparam@3.6.1
+21 silly currentTree   ├── lodash.union@4.6.0
+21 silly currentTree   ├── lodash.uniq@4.5.0
+21 silly currentTree   ├── lodash.without@4.4.0
+21 silly currentTree   ├─┬ mississippi@1.2.0
+21 silly currentTree   │ ├─┬ concat-stream@1.5.2
+21 silly currentTree   │ │ ├─┬ readable-stream@2.0.6
+21 silly currentTree   │ │ │ ├── core-util-is@1.0.2
+21 silly currentTree   │ │ │ ├── isarray@1.0.0
+21 silly currentTree   │ │ │ ├── process-nextick-args@1.0.7
+21 silly currentTree   │ │ │ ├── string_decoder@0.10.31
+21 silly currentTree   │ │ │ └── util-deprecate@1.0.2
+21 silly currentTree   │ │ └── typedarray@0.0.6
+21 silly currentTree   │ ├─┬ duplexify@3.4.5
+21 silly currentTree   │ │ ├─┬ end-of-stream@1.0.0
+21 silly currentTree   │ │ │ └── once@1.3.3
+21 silly currentTree   │ │ └── stream-shift@1.0.0
+21 silly currentTree   │ ├─┬ end-of-stream@1.1.0
+21 silly currentTree   │ │ └── once@1.3.3
+21 silly currentTree   │ ├── flush-write-stream@1.0.0
+21 silly currentTree   │ ├── from2@2.3.0
+21 silly currentTree   │ ├── pump@1.0.1
+21 silly currentTree   │ ├── pumpify@1.3.5
+21 silly currentTree   │ ├── stream-each@1.1.2
+21 silly currentTree   │ └─┬ through2@2.0.1
+21 silly currentTree   │   ├─┬ readable-stream@2.0.6
+21 silly currentTree   │   │ ├── core-util-is@1.0.2
+21 silly currentTree   │   │ ├── isarray@1.0.0
+21 silly currentTree   │   │ ├── process-nextick-args@1.0.7
+21 silly currentTree   │   │ ├── string_decoder@0.10.31
+21 silly currentTree   │   │ └── util-deprecate@1.0.2
+21 silly currentTree   │   └── xtend@4.0.1
+21 silly currentTree   ├─┬ mkdirp@0.5.1
+21 silly currentTree   │ └── minimist@0.0.8
+21 silly currentTree   ├─┬ node-gyp@3.4.0
+21 silly currentTree   │ ├─┬ minimatch@3.0.3
+21 silly currentTree   │ │ └─┬ brace-expansion@1.1.6
+21 silly currentTree   │ │   ├── balanced-match@0.4.2
+21 silly currentTree   │ │   └── concat-map@0.0.1
+21 silly currentTree   │ ├─┬ npmlog@3.1.2
+21 silly currentTree   │ │ ├─┬ are-we-there-yet@1.1.2
+21 silly currentTree   │ │ │ └── delegates@1.0.0
+21 silly currentTree   │ │ ├── console-control-strings@1.1.0
+21 silly currentTree   │ │ ├─┬ gauge@2.6.0
+21 silly currentTree   │ │ │ ├── has-color@0.1.7
+21 silly currentTree   │ │ │ ├── object-assign@4.1.0
+21 silly currentTree   │ │ │ ├── signal-exit@3.0.1
+21 silly currentTree   │ │ │ ├─┬ string-width@1.0.2
+21 silly currentTree   │ │ │ │ ├─┬ code-point-at@1.0.0
+21 silly currentTree   │ │ │ │ │ └── number-is-nan@1.0.0
+21 silly currentTree   │ │ │ │ └─┬ is-fullwidth-code-point@1.0.0
+21 silly currentTree   │ │ │ │   └── number-is-nan@1.0.0
+21 silly currentTree   │ │ │ └── wide-align@1.1.0
+21 silly currentTree   │ │ └── set-blocking@2.0.0
+21 silly currentTree   │ └─┬ path-array@1.0.1
+21 silly currentTree   │   └─┬ array-index@1.0.0
+21 silly currentTree   │     ├─┬ debug@2.2.0
+21 silly currentTree   │     │ └── ms@0.7.1
+21 silly currentTree   │     └─┬ es6-symbol@3.1.0
+21 silly currentTree   │       ├── d@0.1.1
+21 silly currentTree   │       └─┬ es5-ext@0.10.12
+21 silly currentTree   │         └── es6-iterator@2.0.0
+21 silly currentTree   ├── nopt@3.0.6
+21 silly currentTree   ├── normalize-git-url@3.0.2
+21 silly currentTree   ├─┬ normalize-package-data@2.3.5
+21 silly currentTree   │ └─┬ is-builtin-module@1.0.0
+21 silly currentTree   │   └── builtin-modules@1.1.1
+21 silly currentTree   ├── npm-cache-filename@1.0.2
+21 silly currentTree   ├── npm-install-checks@3.0.0
+21 silly currentTree   ├── npm-package-arg@4.2.0
+21 silly currentTree   ├─┬ npm-registry-client@7.3.0
+21 silly currentTree   │ ├─┬ concat-stream@1.5.2
+21 silly currentTree   │ │ ├─┬ readable-stream@2.0.6
+21 silly currentTree   │ │ │ ├── core-util-is@1.0.2
+21 silly currentTree   │ │ │ ├── isarray@1.0.0
+21 silly currentTree   │ │ │ ├── process-nextick-args@1.0.7
+21 silly currentTree   │ │ │ ├── string_decoder@0.10.31
+21 silly currentTree   │ │ │ └── util-deprecate@1.0.2
+21 silly currentTree   │ │ └── typedarray@0.0.6
+21 silly currentTree   │ └─┬ npmlog@3.1.2
+21 silly currentTree   │   ├─┬ are-we-there-yet@1.1.2
+21 silly currentTree   │   │ └── delegates@1.0.0
+21 silly currentTree   │   ├── console-control-strings@1.1.0
+21 silly currentTree   │   ├─┬ gauge@2.6.0
+21 silly currentTree   │   │ ├── has-color@0.1.7
+21 silly currentTree   │   │ ├── object-assign@4.1.0
+21 silly currentTree   │   │ ├── signal-exit@3.0.1
+21 silly currentTree   │   │ ├─┬ string-width@1.0.2
+21 silly currentTree   │   │ │ ├─┬ code-point-at@1.0.1
+21 silly currentTree   │   │ │ │ └── number-is-nan@1.0.1
+21 silly currentTree   │   │ │ └─┬ is-fullwidth-code-point@1.0.0
+21 silly currentTree   │   │ │   └── number-is-nan@1.0.1
+21 silly currentTree   │   │ └── wide-align@1.1.0
+21 silly currentTree   │   └── set-blocking@2.0.0
+21 silly currentTree   ├── npm-user-validate@0.1.5
+21 silly currentTree   ├─┬ npmlog@4.0.0
+21 silly currentTree   │ ├─┬ are-we-there-yet@1.1.2
+21 silly currentTree   │ │ └── delegates@1.0.0
+21 silly currentTree   │ ├── console-control-strings@1.1.0
+21 silly currentTree   │ ├─┬ gauge@2.6.0
+21 silly currentTree   │ │ ├── has-color@0.1.7
+21 silly currentTree   │ │ ├── object-assign@4.1.0
+21 silly currentTree   │ │ ├── signal-exit@3.0.1
+21 silly currentTree   │ │ ├─┬ string-width@1.0.2
+21 silly currentTree   │ │ │ ├─┬ code-point-at@1.0.0
+21 silly currentTree   │ │ │ │ └── number-is-nan@1.0.0
+21 silly currentTree   │ │ │ └─┬ is-fullwidth-code-point@1.0.0
+21 silly currentTree   │ │ │   └── number-is-nan@1.0.0
+21 silly currentTree   │ │ └── wide-align@1.1.0
+21 silly currentTree   │ └── set-blocking@2.0.0
+21 silly currentTree   ├── once@1.4.0
+21 silly currentTree   ├── opener@1.4.2
+21 silly currentTree   ├─┬ osenv@0.1.3
+21 silly currentTree   │ ├── os-homedir@1.0.1
+21 silly currentTree   │ └── os-tmpdir@1.0.1
+21 silly currentTree   ├── path-is-inside@1.0.2
+21 silly currentTree   ├── read-cmd-shim@1.0.1
+21 silly currentTree   ├─┬ read-installed@4.0.3
+21 silly currentTree   │ └── util-extend@1.0.3
+21 silly currentTree   ├─┬ read-package-json@2.0.4
+21 silly currentTree   │ ├─┬ glob@6.0.4
+21 silly currentTree   │ │ ├─┬ minimatch@3.0.3
+21 silly currentTree   │ │ │ └─┬ brace-expansion@1.1.6
+21 silly currentTree   │ │ │   ├── balanced-match@0.4.2
+21 silly currentTree   │ │ │   └── concat-map@0.0.1
+21 silly currentTree   │ │ └── path-is-absolute@1.0.0
+21 silly currentTree   │ └─┬ json-parse-helpfulerror@1.0.3
+21 silly currentTree   │   └── jju@1.3.0
+21 silly currentTree   ├── read-package-tree@5.1.5
+21 silly currentTree   ├─┬ read@1.0.7
+21 silly currentTree   │ └── mute-stream@0.0.5
+21 silly currentTree   ├─┬ readable-stream@2.1.5
+21 silly currentTree   │ ├── buffer-shims@1.0.0
+21 silly currentTree   │ ├── core-util-is@1.0.2
+21 silly currentTree   │ ├── isarray@1.0.0
+21 silly currentTree   │ ├── process-nextick-args@1.0.7
+21 silly currentTree   │ ├── string_decoder@0.10.31
+21 silly currentTree   │ └── util-deprecate@1.0.2
+21 silly currentTree   ├── readdir-scoped-modules@1.0.2
+21 silly currentTree   ├── realize-package-specifier@3.0.3
+21 silly currentTree   ├─┬ request@2.75.0
+21 silly currentTree   │ ├── aws-sign2@0.6.0
+21 silly currentTree   │ ├── aws4@1.4.1
+21 silly currentTree   │ ├─┬ bl@1.1.2
+21 silly currentTree   │ │ └─┬ readable-stream@2.0.6
+21 silly currentTree   │ │   ├── core-util-is@1.0.2
+21 silly currentTree   │ │   ├── isarray@1.0.0
+21 silly currentTree   │ │   ├── process-nextick-args@1.0.7
+21 silly currentTree   │ │   ├── string_decoder@0.10.31
+21 silly currentTree   │ │   └── util-deprecate@1.0.2
+21 silly currentTree   │ ├── caseless@0.11.0
+21 silly currentTree   │ ├─┬ combined-stream@1.0.5
+21 silly currentTree   │ │ └── delayed-stream@1.0.0
+21 silly currentTree   │ ├── extend@3.0.0
+21 silly currentTree   │ ├── forever-agent@0.6.1
+21 silly currentTree   │ ├─┬ form-data@2.0.0
+21 silly currentTree   │ │ └── asynckit@0.4.0
+21 silly currentTree   │ ├─┬ har-validator@2.0.6
+21 silly currentTree   │ │ ├─┬ chalk@1.1.3
+21 silly currentTree   │ │ │ ├── ansi-styles@2.2.1
+21 silly currentTree   │ │ │ ├── escape-string-regexp@1.0.5
+21 silly currentTree   │ │ │ ├── has-ansi@2.0.0
+21 silly currentTree   │ │ │ └── supports-color@2.0.0
+21 silly currentTree   │ │ ├─┬ commander@2.9.0
+21 silly currentTree   │ │ │ └── graceful-readlink@1.0.1
+21 silly currentTree   │ │ ├─┬ is-my-json-valid@2.15.0
+21 silly currentTree   │ │ │ ├── generate-function@2.0.0
+21 silly currentTree   │ │ │ ├─┬ generate-object-property@1.2.0
+21 silly currentTree   │ │ │ │ └── is-property@1.0.2
+21 silly currentTree   │ │ │ ├── jsonpointer@4.0.0
+21 silly currentTree   │ │ │ └── xtend@4.0.1
+21 silly currentTree   │ │ └─┬ pinkie-promise@2.0.1
+21 silly currentTree   │ │   └── pinkie@2.0.4
+21 silly currentTree   │ ├─┬ hawk@3.1.3
+21 silly currentTree   │ │ ├── boom@2.10.1
+21 silly currentTree   │ │ ├── cryptiles@2.0.5
+21 silly currentTree   │ │ ├── hoek@2.16.3
+21 silly currentTree   │ │ └── sntp@1.0.9
+21 silly currentTree   │ ├─┬ http-signature@1.1.1
+21 silly currentTree   │ │ ├── assert-plus@0.2.0
+21 silly currentTree   │ │ ├─┬ jsprim@1.3.1
+21 silly currentTree   │ │ │ ├── extsprintf@1.0.2
+21 silly currentTree   │ │ │ ├── json-schema@0.2.3
+21 silly currentTree   │ │ │ └── verror@1.3.6
+21 silly currentTree   │ │ └─┬ sshpk@1.10.1
+21 silly currentTree   │ │   ├── asn1@0.2.3
+21 silly currentTree   │ │   ├── assert-plus@1.0.0
+21 silly currentTree   │ │   ├── bcrypt-pbkdf@1.0.0
+21 silly currentTree   │ │   ├── dashdash@1.14.0
+21 silly currentTree   │ │   ├── ecc-jsbn@0.1.1
+21 silly currentTree   │ │   ├── getpass@0.1.6
+21 silly currentTree   │ │   ├── jodid25519@1.0.2
+21 silly currentTree   │ │   ├── jsbn@0.1.0
+21 silly currentTree   │ │   └── tweetnacl@0.14.3
+21 silly currentTree   │ ├── is-typedarray@1.0.0
+21 silly currentTree   │ ├── isstream@0.1.2
+21 silly currentTree   │ ├── json-stringify-safe@5.0.1
+21 silly currentTree   │ ├─┬ mime-types@2.1.12
+21 silly currentTree   │ │ └── mime-db@1.24.0
+21 silly currentTree   │ ├── node-uuid@1.4.7
+21 silly currentTree   │ ├── oauth-sign@0.8.2
+21 silly currentTree   │ ├── qs@6.2.1
+21 silly currentTree   │ ├── stringstream@0.0.5
+21 silly currentTree   │ ├── tough-cookie@2.3.1
+21 silly currentTree   │ └── tunnel-agent@0.4.3
+21 silly currentTree   ├── retry@0.10.0
+21 silly currentTree   ├── rimraf@2.5.4
+21 silly currentTree   ├── semver@5.3.0
+21 silly currentTree   ├── sha@2.0.1
+21 silly currentTree   ├── slide@1.1.6
+21 silly currentTree   ├── sorted-object@2.0.1
+21 silly currentTree   ├─┬ sorted-union-stream@2.1.3
+21 silly currentTree   │ ├─┬ from2@1.3.0
+21 silly currentTree   │ │ └─┬ readable-stream@1.1.14
+21 silly currentTree   │ │   ├── core-util-is@1.0.2
+21 silly currentTree   │ │   ├── isarray@0.0.1
+21 silly currentTree   │ │   └── string_decoder@0.10.31
+21 silly currentTree   │ └── stream-iterate@1.1.1
+21 silly currentTree   ├── strip-ansi@3.0.1
+21 silly currentTree   ├─┬ tar@2.2.1
+21 silly currentTree   │ └── block-stream@0.0.8
+21 silly currentTree   ├── text-table@0.2.0
+21 silly currentTree   ├── uid-number@0.0.6
+21 silly currentTree   ├── umask@1.1.0
+21 silly currentTree   ├─┬ unique-filename@1.1.0
+21 silly currentTree   │ └── unique-slug@2.0.0
+21 silly currentTree   ├── unpipe@1.0.0
+21 silly currentTree   ├─┬ validate-npm-package-license@3.0.1
+21 silly currentTree   │ ├─┬ spdx-correct@1.0.2
+21 silly currentTree   │ │ └── spdx-license-ids@1.2.0
+21 silly currentTree   │ └─┬ spdx-expression-parse@1.0.2
+21 silly currentTree   │   ├── spdx-exceptions@1.0.4
+21 silly currentTree   │   └── spdx-license-ids@1.2.0
+21 silly currentTree   ├─┬ validate-npm-package-name@2.2.2
+21 silly currentTree   │ └── builtins@0.0.7
+21 silly currentTree   ├─┬ which@1.2.11
+21 silly currentTree   │ └── isexe@1.1.2
+21 silly currentTree   ├── wrappy@1.0.2
+21 silly currentTree   └── write-file-atomic@1.2.0
+22 silly idealTree lib
+23 silly generateActionsToTake Starting
+24 silly install generateActionsToTake
+25 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/ansi-regex
+26 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/abbrev
+27 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/aproba
+28 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/asap
+29 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/columnify/node_modules/wcwidth/node_modules/defaults/node_modules/clone
+30 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/columnify/node_modules/wcwidth/node_modules/defaults
+31 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/columnify/node_modules/wcwidth
+32 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/config-chain/node_modules/proto-list
+33 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/debuglog
+34 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/fstream-npm/node_modules/fstream-ignore/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match
+35 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/fstream-npm/node_modules/fstream-ignore/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map
+36 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/fstream-npm/node_modules/fstream-ignore/node_modules/minimatch/node_modules/brace-expansion
+37 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/fstream-npm/node_modules/fstream-ignore/node_modules/minimatch
+38 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/glob/node_modules/fs.realpath
+39 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match
+40 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map
+41 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion
+42 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/glob/node_modules/minimatch
+43 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/glob/node_modules/path-is-absolute
+44 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/graceful-fs
+45 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/has-unicode
+46 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/hosted-git-info
+47 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/iferr
+48 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/imurmurhash
+49 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/inherits
+50 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/ini
+51 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/init-package-json/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match
+52 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/init-package-json/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map
+53 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/init-package-json/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion
+54 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/init-package-json/node_modules/glob/node_modules/minimatch
+55 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/init-package-json/node_modules/glob/node_modules/path-is-absolute
+56 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/JSONStream/node_modules/jsonparse
+57 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/JSONStream/node_modules/through
+58 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/lodash._baseuniq/node_modules/lodash._createset
+59 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/lodash._baseuniq/node_modules/lodash._root
+60 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/lodash._getnative
+61 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/mississippi/node_modules/concat-stream/node_modules/readable-stream/node_modules/core-util-is
+62 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/mississippi/node_modules/concat-stream/node_modules/readable-stream/node_modules/isarray
+63 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/mississippi/node_modules/concat-stream/node_modules/readable-stream/node_modules/process-nextick-args
+64 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/mississippi/node_modules/concat-stream/node_modules/readable-stream/node_modules/string_decoder
+65 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/mississippi/node_modules/concat-stream/node_modules/readable-stream/node_modules/util-deprecate
+66 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/mississippi/node_modules/concat-stream/node_modules/readable-stream
+67 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/mississippi/node_modules/concat-stream/node_modules/typedarray
+68 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/mississippi/node_modules/concat-stream
+69 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/mississippi/node_modules/duplexify/node_modules/stream-shift
+70 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/mississippi/node_modules/through2/node_modules/readable-stream/node_modules/core-util-is
+71 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/mississippi/node_modules/through2/node_modules/readable-stream/node_modules/isarray
+72 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/mississippi/node_modules/through2/node_modules/readable-stream/node_modules/process-nextick-args
+73 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/mississippi/node_modules/through2/node_modules/readable-stream/node_modules/string_decoder
+74 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/mississippi/node_modules/through2/node_modules/readable-stream/node_modules/util-deprecate
+75 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/mississippi/node_modules/through2/node_modules/readable-stream
+76 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/mississippi/node_modules/through2/node_modules/xtend
+77 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/mississippi/node_modules/through2
+78 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/mkdirp/node_modules/minimist
+79 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/mkdirp
+80 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match
+81 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map
+82 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/minimatch/node_modules/brace-expansion
+83 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/minimatch
+84 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/npmlog/node_modules/are-we-there-yet/node_modules/delegates
+85 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/npmlog/node_modules/console-control-strings
+86 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/npmlog/node_modules/gauge/node_modules/has-color
+87 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/npmlog/node_modules/gauge/node_modules/object-assign
+88 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/npmlog/node_modules/gauge/node_modules/signal-exit
+89 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/npmlog/node_modules/gauge/node_modules/string-width/node_modules/code-point-at/node_modules/number-is-nan
+90 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/npmlog/node_modules/gauge/node_modules/string-width/node_modules/code-point-at
+91 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/npmlog/node_modules/gauge/node_modules/string-width/node_modules/is-fullwidth-code-point/node_modules/number-is-nan
+92 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/npmlog/node_modules/gauge/node_modules/string-width/node_modules/is-fullwidth-code-point
+93 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/npmlog/node_modules/set-blocking
+94 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/path-array/node_modules/array-index/node_modules/debug/node_modules/ms
+95 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/path-array/node_modules/array-index/node_modules/debug
+96 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/path-array/node_modules/array-index/node_modules/es6-symbol/node_modules/es5-ext/node_modules/es6-iterator
+97 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/path-array/node_modules/array-index/node_modules/es6-symbol/node_modules/es5-ext
+98 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/path-array/node_modules/array-index/node_modules/es6-symbol/node_modules/d
+99 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/path-array/node_modules/array-index/node_modules/es6-symbol
+100 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/path-array/node_modules/array-index
+101 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/path-array
+102 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/nopt
+103 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/normalize-package-data/node_modules/is-builtin-module/node_modules/builtin-modules
+104 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/normalize-package-data/node_modules/is-builtin-module
+105 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-registry-client/node_modules/concat-stream/node_modules/readable-stream/node_modules/core-util-is
+106 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-registry-client/node_modules/concat-stream/node_modules/readable-stream/node_modules/isarray
+107 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-registry-client/node_modules/concat-stream/node_modules/readable-stream/node_modules/process-nextick-args
+108 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-registry-client/node_modules/concat-stream/node_modules/readable-stream/node_modules/string_decoder
+109 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-registry-client/node_modules/concat-stream/node_modules/readable-stream/node_modules/util-deprecate
+110 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-registry-client/node_modules/concat-stream/node_modules/readable-stream
+111 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-registry-client/node_modules/concat-stream/node_modules/typedarray
+112 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-registry-client/node_modules/concat-stream
+113 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-registry-client/node_modules/npmlog/node_modules/are-we-there-yet/node_modules/delegates
+114 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-registry-client/node_modules/npmlog/node_modules/console-control-strings
+115 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-registry-client/node_modules/npmlog/node_modules/gauge/node_modules/has-color
+116 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-registry-client/node_modules/npmlog/node_modules/gauge/node_modules/object-assign
+117 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-registry-client/node_modules/npmlog/node_modules/gauge/node_modules/signal-exit
+118 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-registry-client/node_modules/npmlog/node_modules/gauge/node_modules/string-width/node_modules/code-point-at/node_modules/number-is-nan
+119 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-registry-client/node_modules/npmlog/node_modules/gauge/node_modules/string-width/node_modules/code-point-at
+120 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-registry-client/node_modules/npmlog/node_modules/gauge/node_modules/string-width/node_modules/is-fullwidth-code-point/node_modules/number-is-nan
+121 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-registry-client/node_modules/npmlog/node_modules/gauge/node_modules/string-width/node_modules/is-fullwidth-code-point
+122 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-registry-client/node_modules/npmlog/node_modules/set-blocking
+123 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npmlog/node_modules/are-we-there-yet/node_modules/delegates
+124 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npmlog/node_modules/console-control-strings
+125 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npmlog/node_modules/gauge/node_modules/has-color
+126 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npmlog/node_modules/gauge/node_modules/object-assign
+127 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npmlog/node_modules/gauge/node_modules/signal-exit
+128 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npmlog/node_modules/gauge/node_modules/string-width/node_modules/code-point-at/node_modules/number-is-nan
+129 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npmlog/node_modules/gauge/node_modules/string-width/node_modules/code-point-at
+130 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npmlog/node_modules/gauge/node_modules/string-width/node_modules/is-fullwidth-code-point/node_modules/number-is-nan
+131 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npmlog/node_modules/gauge/node_modules/string-width/node_modules/is-fullwidth-code-point
+132 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npmlog/node_modules/set-blocking
+133 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/osenv/node_modules/os-homedir
+134 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/osenv/node_modules/os-tmpdir
+135 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/osenv
+136 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/path-is-inside
+137 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/read-installed/node_modules/util-extend
+138 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/read-package-json/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match
+139 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/read-package-json/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map
+140 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/read-package-json/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion
+141 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/read-package-json/node_modules/glob/node_modules/minimatch
+142 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/read-package-json/node_modules/glob/node_modules/path-is-absolute
+143 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/read-package-json/node_modules/json-parse-helpfulerror/node_modules/jju
+144 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/read-package-json/node_modules/json-parse-helpfulerror
+145 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/read/node_modules/mute-stream
+146 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/read
+147 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/init-package-json/node_modules/promzard
+148 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/readable-stream/node_modules/buffer-shims
+149 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/readable-stream/node_modules/core-util-is
+150 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/readable-stream/node_modules/isarray
+151 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/readable-stream/node_modules/process-nextick-args
+152 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/readable-stream/node_modules/string_decoder
+153 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/readable-stream/node_modules/util-deprecate
+154 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/readable-stream
+155 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/mississippi/node_modules/flush-write-stream
+156 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/mississippi/node_modules/from2
+157 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/npmlog/node_modules/are-we-there-yet
+158 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-registry-client/node_modules/npmlog/node_modules/are-we-there-yet
+159 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npmlog/node_modules/are-we-there-yet
+160 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/aws-sign2
+161 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/aws4
+162 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/bl/node_modules/readable-stream/node_modules/core-util-is
+163 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/bl/node_modules/readable-stream/node_modules/isarray
+164 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/bl/node_modules/readable-stream/node_modules/process-nextick-args
+165 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/bl/node_modules/readable-stream/node_modules/string_decoder
+166 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/bl/node_modules/readable-stream/node_modules/util-deprecate
+167 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/bl/node_modules/readable-stream
+168 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/bl
+169 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/caseless
+170 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/combined-stream/node_modules/delayed-stream
+171 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/combined-stream
+172 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/extend
+173 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/forever-agent
+174 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/form-data/node_modules/asynckit
+175 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/har-validator/node_modules/chalk/node_modules/ansi-styles
+176 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/har-validator/node_modules/chalk/node_modules/escape-string-regexp
+177 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/har-validator/node_modules/chalk/node_modules/has-ansi
+178 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/har-validator/node_modules/chalk/node_modules/supports-color
+179 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/har-validator/node_modules/commander/node_modules/graceful-readlink
+180 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/har-validator/node_modules/commander
+181 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/har-validator/node_modules/is-my-json-valid/node_modules/generate-function
+182 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/har-validator/node_modules/is-my-json-valid/node_modules/generate-object-property/node_modules/is-property
+183 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/har-validator/node_modules/is-my-json-valid/node_modules/generate-object-property
+184 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/har-validator/node_modules/is-my-json-valid/node_modules/jsonpointer
+185 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/har-validator/node_modules/is-my-json-valid/node_modules/xtend
+186 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/har-validator/node_modules/is-my-json-valid
+187 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/har-validator/node_modules/pinkie-promise/node_modules/pinkie
+188 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/har-validator/node_modules/pinkie-promise
+189 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/hawk/node_modules/hoek
+190 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/hawk/node_modules/boom
+191 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/hawk/node_modules/cryptiles
+192 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/hawk/node_modules/sntp
+193 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/hawk
+194 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/http-signature/node_modules/assert-plus
+195 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/http-signature/node_modules/jsprim/node_modules/extsprintf
+196 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/http-signature/node_modules/jsprim/node_modules/json-schema
+197 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/http-signature/node_modules/jsprim/node_modules/verror
+198 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/http-signature/node_modules/jsprim
+199 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/asn1
+200 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/assert-plus
+201 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/dashdash
+202 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/getpass
+203 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/jsbn
+204 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/ecc-jsbn
+205 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/jodid25519
+206 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/tweetnacl
+207 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/bcrypt-pbkdf
+208 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/http-signature/node_modules/sshpk
+209 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/http-signature
+210 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/is-typedarray
+211 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/isstream
+212 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/json-stringify-safe
+213 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/mime-types/node_modules/mime-db
+214 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/mime-types
+215 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/form-data
+216 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/node-uuid
+217 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/oauth-sign
+218 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/qs
+219 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/stringstream
+220 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/tough-cookie
+221 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/tunnel-agent
+222 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/retry
+223 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/semver
+224 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-package-arg
+225 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/slide
+226 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/sorted-union-stream/node_modules/from2/node_modules/readable-stream/node_modules/core-util-is
+227 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/sorted-union-stream/node_modules/from2/node_modules/readable-stream/node_modules/isarray
+228 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/sorted-union-stream/node_modules/from2/node_modules/readable-stream/node_modules/string_decoder
+229 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/sorted-union-stream/node_modules/from2/node_modules/readable-stream
+230 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/sorted-union-stream/node_modules/from2
+231 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/sorted-union-stream/node_modules/stream-iterate
+232 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/strip-ansi
+233 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/npmlog/node_modules/gauge/node_modules/string-width
+234 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/npmlog/node_modules/gauge/node_modules/wide-align
+235 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/npmlog/node_modules/gauge
+236 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/npmlog
+237 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-registry-client/node_modules/npmlog/node_modules/gauge/node_modules/string-width
+238 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-registry-client/node_modules/npmlog/node_modules/gauge/node_modules/wide-align
+239 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-registry-client/node_modules/npmlog/node_modules/gauge
+240 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-registry-client/node_modules/npmlog
+241 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npmlog/node_modules/gauge/node_modules/string-width
+242 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npmlog/node_modules/gauge/node_modules/wide-align
+243 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npmlog/node_modules/gauge
+244 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/har-validator/node_modules/chalk
+245 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/har-validator
+246 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request
+247 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/tar/node_modules/block-stream
+248 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/unique-filename/node_modules/unique-slug
+249 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/validate-npm-package-license/node_modules/spdx-correct/node_modules/spdx-license-ids
+250 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/validate-npm-package-license/node_modules/spdx-correct
+251 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/validate-npm-package-license/node_modules/spdx-expression-parse/node_modules/spdx-exceptions
+252 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/validate-npm-package-license/node_modules/spdx-expression-parse/node_modules/spdx-license-ids
+253 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/validate-npm-package-license/node_modules/spdx-expression-parse
+254 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/validate-npm-package-license
+255 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/normalize-package-data
+256 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/validate-npm-package-name/node_modules/builtins
+257 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/validate-npm-package-name
+258 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/which/node_modules/isexe
+259 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/which
+260 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/wrappy
+261 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/dezalgo
+262 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/mississippi/node_modules/duplexify/node_modules/end-of-stream/node_modules/once
+263 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/mississippi/node_modules/duplexify/node_modules/end-of-stream
+264 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/mississippi/node_modules/duplexify
+265 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/mississippi/node_modules/end-of-stream
+266 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/mississippi/node_modules/end-of-stream/node_modules/once
+267 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/mississippi/node_modules/stream-each
+268 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/once
+269 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/inflight
+270 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/glob
+271 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/rimraf
+272 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/fstream
+273 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/fstream-npm/node_modules/fstream-ignore
+274 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/tar
+275 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/init-package-json/node_modules/glob
+276 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/mississippi/node_modules/pump
+277 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/mississippi/node_modules/pumpify
+278 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/read-package-json/node_modules/glob
+279 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/read-package-json
+280 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/readdir-scoped-modules
+281 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/ansicolors
+282 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/ansistyles
+283 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/archy
+284 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/chownr
+285 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/cmd-shim
+286 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/columnify
+287 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/config-chain
+288 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/editor
+289 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/fs-vacuum
+290 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/fs-write-stream-atomic
+291 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/fstream-npm
+292 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/init-package-json
+293 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/JSONStream
+294 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/lockfile
+295 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/lodash._baseindexof
+296 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/lodash._baseuniq
+297 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/lodash._bindcallback
+298 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/lodash._cacheindexof
+299 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/lodash._createcache
+300 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/lodash.clonedeep
+301 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/lodash.restparam
+302 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/lodash.union
+303 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/lodash.uniq
+304 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/lodash.without
+305 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/mississippi
+306 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/node-gyp
+307 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/normalize-git-url
+308 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-cache-filename
+309 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-install-checks
+310 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-registry-client
+311 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-user-validate
+312 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npmlog
+313 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/opener
+314 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/read-cmd-shim
+315 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/read-installed
+316 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/read-package-tree
+317 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/realize-package-specifier
+318 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/sha
+319 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/sorted-object
+320 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/sorted-union-stream
+321 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/text-table
+322 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/uid-number
+323 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/umask
+324 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/unique-filename
+325 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/unpipe
+326 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/write-file-atomic
+327 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm
+328 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules
+329 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/columnify/node_modules/wcwidth/node_modules/defaults/node_modules
+330 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/columnify/node_modules/wcwidth/node_modules
+331 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/columnify/node_modules
+332 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/config-chain/node_modules
+333 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/fstream-npm/node_modules/fstream-ignore/node_modules/minimatch/node_modules/brace-expansion/node_modules
+334 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/fstream-npm/node_modules/fstream-ignore/node_modules/minimatch/node_modules
+335 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/fstream-npm/node_modules/fstream-ignore/node_modules
+336 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/glob/node_modules
+337 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules
+338 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/glob/node_modules/minimatch/node_modules
+339 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/init-package-json/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules
+340 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/init-package-json/node_modules/glob/node_modules/minimatch/node_modules
+341 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/init-package-json/node_modules/glob/node_modules
+342 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/JSONStream/node_modules
+343 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/lodash._baseuniq/node_modules
+344 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/mississippi/node_modules/concat-stream/node_modules/readable-stream/node_modules
+345 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/mississippi/node_modules/concat-stream/node_modules
+346 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/mississippi/node_modules
+347 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/mississippi/node_modules/duplexify/node_modules
+348 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/mississippi/node_modules/through2/node_modules/readable-stream/node_modules
+349 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/mississippi/node_modules/through2/node_modules
+350 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/mkdirp/node_modules
+351 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/minimatch/node_modules/brace-expansion/node_modules
+352 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/minimatch/node_modules
+353 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules
+354 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/npmlog/node_modules/are-we-there-yet/node_modules
+355 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/npmlog/node_modules
+356 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/npmlog/node_modules/gauge/node_modules
+357 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/npmlog/node_modules/gauge/node_modules/string-width/node_modules/code-point-at/node_modules
+358 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/npmlog/node_modules/gauge/node_modules/string-width/node_modules
+359 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/npmlog/node_modules/gauge/node_modules/string-width/node_modules/is-fullwidth-code-point/node_modules
+360 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/path-array/node_modules/array-index/node_modules/debug/node_modules
+361 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/path-array/node_modules/array-index/node_modules
+362 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/path-array/node_modules/array-index/node_modules/es6-symbol/node_modules/es5-ext/node_modules
+363 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/path-array/node_modules/array-index/node_modules/es6-symbol/node_modules
+364 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/path-array/node_modules
+365 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/normalize-package-data/node_modules/is-builtin-module/node_modules
+366 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/normalize-package-data/node_modules
+367 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-registry-client/node_modules/concat-stream/node_modules/readable-stream/node_modules
+368 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-registry-client/node_modules/concat-stream/node_modules
+369 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-registry-client/node_modules
+370 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-registry-client/node_modules/npmlog/node_modules/are-we-there-yet/node_modules
+371 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-registry-client/node_modules/npmlog/node_modules
+372 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-registry-client/node_modules/npmlog/node_modules/gauge/node_modules
+373 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-registry-client/node_modules/npmlog/node_modules/gauge/node_modules/string-width/node_modules/code-point-at/node_modules
+374 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-registry-client/node_modules/npmlog/node_modules/gauge/node_modules/string-width/node_modules
+375 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-registry-client/node_modules/npmlog/node_modules/gauge/node_modules/string-width/node_modules/is-fullwidth-code-point/node_modules
+376 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npmlog/node_modules/are-we-there-yet/node_modules
+377 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npmlog/node_modules
+378 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npmlog/node_modules/gauge/node_modules
+379 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npmlog/node_modules/gauge/node_modules/string-width/node_modules/code-point-at/node_modules
+380 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npmlog/node_modules/gauge/node_modules/string-width/node_modules
+381 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npmlog/node_modules/gauge/node_modules/string-width/node_modules/is-fullwidth-code-point/node_modules
+382 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/osenv/node_modules
+383 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/read-installed/node_modules
+384 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/read-package-json/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules
+385 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/read-package-json/node_modules/glob/node_modules/minimatch/node_modules
+386 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/read-package-json/node_modules/glob/node_modules
+387 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/read-package-json/node_modules/json-parse-helpfulerror/node_modules
+388 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/read-package-json/node_modules
+389 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/read/node_modules
+390 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/init-package-json/node_modules
+391 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/readable-stream/node_modules
+392 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules
+393 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/bl/node_modules/readable-stream/node_modules
+394 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/bl/node_modules
+395 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/combined-stream/node_modules
+396 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/form-data/node_modules
+397 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/har-validator/node_modules/chalk/node_modules
+398 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/har-validator/node_modules/commander/node_modules
+399 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/har-validator/node_modules
+400 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/har-validator/node_modules/is-my-json-valid/node_modules
+401 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/har-validator/node_modules/is-my-json-valid/node_modules/generate-object-property/node_modules
+402 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/har-validator/node_modules/pinkie-promise/node_modules
+403 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/hawk/node_modules
+404 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/http-signature/node_modules
+405 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/http-signature/node_modules/jsprim/node_modules
+406 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules
+407 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/mime-types/node_modules
+408 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/sorted-union-stream/node_modules/from2/node_modules/readable-stream/node_modules
+409 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/sorted-union-stream/node_modules/from2/node_modules
+410 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/sorted-union-stream/node_modules
+411 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/tar/node_modules
+412 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/unique-filename/node_modules
+413 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/validate-npm-package-license/node_modules/spdx-correct/node_modules
+414 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/validate-npm-package-license/node_modules
+415 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/validate-npm-package-license/node_modules/spdx-expression-parse/node_modules
+416 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/validate-npm-package-name/node_modules
+417 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/which/node_modules
+418 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/mississippi/node_modules/duplexify/node_modules/end-of-stream/node_modules
+419 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/mississippi/node_modules/end-of-stream/node_modules
+420 warn checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/fstream-npm/node_modules
+421 warn checkPermissions Missing write access to /usr/local/lib/node_modules
+422 silly rollbackFailedOptional Starting
+423 silly rollbackFailedOptional Finishing
+424 silly runTopLevelLifecycles Finishing
+425 silly install printInstalled
+426 verbose stack Error: EACCES: permission denied, access '/usr/local/lib/node_modules/npm/node_modules/ansi-regex'
+426 verbose stack     at Error (native)
+427 verbose cwd /Users/elizabethbayardelle/bloc/angular_js_tutorial/flapper-news
+428 error Darwin 16.0.0
+429 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "uninstall" "npm" "-g"
+430 error node v6.0.0
+431 error npm  v4.0.1
+432 error path /usr/local/lib/node_modules/npm/node_modules/ansi-regex
+433 error code EACCES
+434 error errno -13
+435 error syscall access
+436 error Error: EACCES: permission denied, access '/usr/local/lib/node_modules/npm/node_modules/ansi-regex'
+436 error     at Error (native)
+436 error  { Error: EACCES: permission denied, access '/usr/local/lib/node_modules/npm/node_modules/ansi-regex'
+436 error     at Error (native)
+436 error   errno: -13,
+436 error   code: 'EACCES',
+436 error   syscall: 'access',
+436 error   path: '/usr/local/lib/node_modules/npm/node_modules/ansi-regex' }
+437 error Please try running this command again as root/Administrator.
+438 verbose exit [ -13, true ]
